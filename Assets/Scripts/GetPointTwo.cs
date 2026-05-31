@@ -1,8 +1,11 @@
+using TMPro;
 using UnityEngine;
 
 public class GetPointTwo : MonoBehaviour
 {
     [SerializeField] private GameObject ball;
+    [SerializeField] private GameObject text;
+    int score = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -20,6 +23,8 @@ public class GetPointTwo : MonoBehaviour
         if (other.CompareTag("Ball"))
         {
             Destroy(other.gameObject);
+            score++;
+            text.GetComponent<TextMeshProUGUI>().text = score.ToString();
             Invoke("CreateBall", 1f);
         }
     }
