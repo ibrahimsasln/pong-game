@@ -10,5 +10,5 @@ A simple 2D Pong game made with Unity.
 - Two player local multiplayer
 - Score system
 
-## Game Footage
+## Screenshot
 ![Gameplay](pong_ss.png)
