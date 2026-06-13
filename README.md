@@ -12,3 +12,6 @@ A simple 2D Pong game made with Unity.
 
 ## Screenshot
 ![Gameplay](pong_ss.png)
+
+Play on itch.io
+https://brahimux.itch.io/pong-game
